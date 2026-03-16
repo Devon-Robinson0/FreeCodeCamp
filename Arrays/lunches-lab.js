@@ -36,7 +36,7 @@ function removeFirstLunch(arr) {
 
 function getRandomLunch(arr) {
   if (arr.length >= 1) {
-    const ranValue = Math.floor(Math.random() * (arr.length) + 1) - 1;
+    const ranValue = Math.floor(Math.random() * arr.length);
     console.log(`Randomly selected lunch: ${arr[ranValue]}`);
   } else {
     console.log("No lunches available.");

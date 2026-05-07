@@ -1,0 +1,22 @@
+.filled {
+  color: crimson;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #CCC;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,8 +1,9 @@
-const currentDate = new Date();
+const currentDate = new Date("22");
+// console.log(currentDate.getDate());
 const currentDateFormat = `Current Date and Time: ${currentDate}`;
 
 console.log(currentDateFormat);
-console.log(formatDateMMDDYYYY(currentDate))
+console.log(formatDateMMDDYYYY(currentDate));
 
 function formatDateMMDDYYYY(date) {
   const options = {

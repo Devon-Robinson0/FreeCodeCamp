@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">The Title</h1>
+    <p id="description">Explanation</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label id="name-label">Name: 
+          <input 
+            required 
+            id="name" 
+            type="text" 
+            placeholder="name"
+          />
+        </label>
+        <label id="email-label">Email: 
+          <input 
+            required
+            id="email"
+            type="email"
+            placeholder="email"
+          />
+        </label>
+        <label id="number-label">Age: 
+          <input
+            type="number"
+            id="number"
+            placeholder="##"
+            min="0"
+            max="200"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Pick an Option</legend>
+        <label for="dropdown">Reason: </label>
+        <select id="dropdown">
+          <option value="" disabled>Please choose an option</option>
+          <option value="option1">option 1</option>
+          <option value="option2">option 2</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select a single option</legend>
+        <label for="radio1">Option 1: </label>
+        <input type="radio" name="option" id="radio1" value="radio1">
+        <label for="radio2">Option 2: </label>
+        <input type="radio" name="option" id="radio2" value="radio2">
+        <label for="radio3">Option 3: </label>
+        <input type="radio" name="option" id="radio3" value="radio3">
+      </fieldset>
+
+      <fieldset>
+        <legend>Checkboxes</legend>
+        <input type="checkbox" value="check-1" id="check-1" checked>
+        <label for="check-1">1st</label>
+        <input type="checkbox" value="check-2" id="check-2">
+        <label for="check-2">2st</label>
+        <input type="checkbox" value="check-3" id="check-3">
+        <label for="check-3">3st</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Comments</fieldset>
+        <textarea id="comments"></textarea>
+      </fieldset>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>

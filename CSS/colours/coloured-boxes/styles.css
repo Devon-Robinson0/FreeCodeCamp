@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+}
+
+.color1 {
+  background-color: #F54927;
+}
+.color2 {
+  background-color: rgb(255, 255, 0);
+}
+
+.color3 {
+  background-color: magenta;
+}
+
+.color4 {
+  background-color: hsl(421, 49%, 80%);
+}
+
+.color5 {
+  background-color: #F54927;
+}
